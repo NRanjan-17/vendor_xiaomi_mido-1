@@ -218,22 +218,6 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/bin/chargeonlymode"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
-}
-
 install_symlink {
 	name: "libimscamera_jni_libimscamera_jni_symlink64",
 	system_ext_specific: true,
