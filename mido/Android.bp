@@ -13816,6 +13816,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libjpegdhw.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -13841,6 +13842,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libjpegdmahw.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -13866,6 +13868,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libjpegehw.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -14311,6 +14314,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera2_sensor_modules.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libmmcamera2_mct",
@@ -14480,6 +14484,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_dbg.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libc++",
@@ -14743,6 +14748,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libstdc++_vendor",
@@ -14797,6 +14803,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_imx258.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -14876,6 +14883,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_imx258_mono.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -14928,6 +14936,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_imx258_ofilm.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -14953,6 +14962,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_imx258_qtech.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -14978,6 +14988,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_imx258_sunny.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libc++",
                 "libdl",
@@ -15980,6 +15991,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libmmcamera2_sensor_modules",
                 "libmmcamera_eeprom_util",
@@ -16195,6 +16207,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdaf.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libmmcamera_dbg",
@@ -16222,6 +16235,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_pdafcamif.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libutils",
                 "libmmcamera_dbg",
@@ -16891,6 +16905,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so",
             ],
             shared_libs: [
+                "liblog",
                 "libdl",
                 "libcutils",
                 "libmmcamera_dbg",
@@ -17249,6 +17264,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqomx_jpegdec.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libmmqjpeg_codec",
@@ -17276,6 +17292,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqomx_jpegenc.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libmmjpeg",
@@ -17303,6 +17320,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/libqomx_jpegenc_pipe.so",
             ],
             shared_libs: [
+                "liblog",
                 "libcutils",
                 "libdl",
                 "libmmqjpeg_codec",
