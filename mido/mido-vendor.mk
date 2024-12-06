@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libmm-hdcpmgr \
-    libmmosal \
+    libmmosal_vendor \
     libnetmgr \
     libpdmapper \
     libqcci_legacy \
@@ -755,7 +755,7 @@ PRODUCT_PACKAGES += \
     libswdap \
     libswgamedap \
     libswvqe \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -937,7 +937,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.qti.memory.pasrmanager@1.0 \

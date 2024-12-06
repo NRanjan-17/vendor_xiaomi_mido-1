@@ -1480,7 +1480,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmmosal",
+    name: "libmmosal_vendor",
+    stem: "libmmosal",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -17561,7 +17562,7 @@ cc_prebuilt_library_shared {
                 "libcrypto",
                 "libcutils",
                 "liblog",
-                "libprotobuf-cpp-lite-3.9.1",
+                "libprotobuf-cpp-lite-3.9.1-vendorcompat",
                 "libutils",
                 "libc++",
                 "libc",
@@ -17672,7 +17673,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.dpm.api@1.0",
+    name: "com.qualcomm.qti.dpm.api@1.0_vendor",
+    stem: "com.qualcomm.qti.dpm.api@1.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -18563,7 +18565,7 @@ cc_prebuilt_library_shared {
                 "librcc",
                 "libion",
                 "libhidlbase",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libdiag",
                 "libcutils",
@@ -19376,7 +19378,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libhardware_legacy",
                 "libhardware",
-                "com.qualcomm.qti.dpm.api@1.0",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -20508,7 +20510,7 @@ cc_prebuilt_library_shared {
                 "android.hardware.radio@1.5",
                 "android.hardware.radio.deprecated@1.0",
                 "qtimutex",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libvndksupport",
                 "libbase",
                 "libz",
@@ -20694,7 +20696,7 @@ cc_prebuilt_library_shared {
                 "libcutils",
                 "libc++",
                 "libdiag",
-                "libprotobuf-cpp-full-3.9.1",
+                "libprotobuf-cpp-full-3.9.1-vendorcompat",
                 "libc",
                 "libm",
                 "libdl",
@@ -23223,7 +23225,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libhidlbase",
                 "libdiag",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -23237,7 +23239,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "vendor.qti.imsrtpservice@3.0",
+    name: "vendor.qti.imsrtpservice@3.0_vendor",
+    stem: "vendor.qti.imsrtpservice@3.0",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -24429,7 +24432,7 @@ cc_prebuilt_binary {
                 "libqmi_client_helper",
                 "libqmiservices",
                 "libdpmqmihal",
-                "com.qualcomm.qti.dpm.api@1.0",
+                "com.qualcomm.qti.dpm.api@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
@@ -24824,7 +24827,7 @@ cc_prebuilt_binary {
                 "libqmiservices",
                 "libqmi_csi",
                 "libqmi_cci",
-                "vendor.qti.imsrtpservice@3.0",
+                "vendor.qti.imsrtpservice@3.0_vendor",
                 "vendor.qti.imsrtpservice@3.0-service-Impl",
                 "libutils",
                 "libhidlbase",
