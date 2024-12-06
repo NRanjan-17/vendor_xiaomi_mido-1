@@ -19481,6 +19481,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfp_client.so",
             ],
             shared_libs: [
+                "liblog",
                 "libbinder",
                 "libcutils",
                 "libutils",
@@ -19532,6 +19533,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfpservice.so",
             ],
             shared_libs: [
+                "libbinder_shim",
+                "liblog",
                 "libc",
                 "libbinder",
                 "libcutils",
