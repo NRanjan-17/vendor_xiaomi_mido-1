@@ -144,7 +144,6 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libmm-hdcpmgr \
-    libmmosal_vendor \
     libnetmgr \
     libpdmapper \
     libqcci_legacy \
