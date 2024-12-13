@@ -19495,8 +19495,8 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libfpservice.so",
             ],
             shared_libs: [
-                "libbinder_shim",
                 "liblog",
+                "libbinder_shim",
                 "libc",
                 "libbinder",
                 "libcutils",
@@ -24471,8 +24471,8 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/gx_fpd",
             ],
             shared_libs: [
-                "libshims_gxfpd",
                 "fakelogprint",
+                "libshims_gxfpd",
                 "libbinder",
                 "libcutils",
                 "libfpservice",
